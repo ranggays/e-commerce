@@ -127,86 +127,6 @@
 
         @endforeach
 
-             <!-- <article class="products__card">
-                 <img src="assets/img/home-lake.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Khaki pilot</h3>
-                 <span class="products__price">$1350</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-
-             <article class="products__card">
-                 <img src="assets/img/home-mountain.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Jubilee black</h3>
-                 <span class="products__price">$870</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-
-             <article class="products__card">
-                 <img src="assets/img/home-trees.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Fosil me3</h3>
-                 <span class="products__price">$650</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-
-             <article class="products__card">
-                 <img src="assets/img/home-bg.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Duchen</h3>
-                 <span class="products__price">$950</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-             
-             <article class="products__card">
-                 <img src="assets/img/home-bg.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Duchen</h3>
-                 <span class="products__price">$950</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-             
-             <article class="products__card">
-                 <img src="assets/img/home-bg.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Duchen</h3>
-                 <span class="products__price">$950</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article>
-             
-             <article class="products__card">
-                 <img src="assets/img/home-bg.jpg" alt="" class="products__img">
-
-                 <h3 class="products__title">Duchen</h3>
-                 <span class="products__price">$950</span>
-
-                 <a href="detail.html" class="products__button">
-                     <i class='bx bx-shopping-bag'></i>
-                  </a>
-             </article> -->
-             
-             <!-- <a href="detail.html" class="products__button">
-               <i class='bx bx-shopping-bag'></i>
-            </a> -->
          </div>
          <div class="button__container">
             <div class="button__data">
@@ -234,11 +154,11 @@
       <div class="footer__container container grid">
          <div class="footer__content grid">
             <div>
-               <a href="#" class="footer__logo">Travel</a>
+               <a href="#" class="footer__logo">E-Commerce</a>
 
                <p class="footer__description">
-                  Travel with us and explore <br> 
-                  the world without limits.
+                  Buy in our platform. <br>
+                  Its feels special
                </p>
             </div>
 
@@ -337,7 +257,7 @@
             </div>
 
             <span class="footer__copy">
-               &#169; Copyright Bedimcode. All rights reserved
+               &#169; Copyright Ranggays. All rights reserved
             </span>
          </div>
       </div>

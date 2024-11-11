@@ -19,7 +19,7 @@
     <header class="header" id="header">
         <nav class="nav container">
            <a href="#" class="nav__logo">
-              StartUp
+              E-Commerce
            </a>
            <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
@@ -145,12 +145,12 @@
         <div class="footer__container container grid">
            <div class="footer__content grid">
               <div>
-                 <a href="#" class="footer__logo">Travel</a>
+                 <a href="#" class="footer__logo">E-Commerce</a>
 
-                 <p class="footer__description">
-                    Travel with us and explore <br> 
-                    the world without limits.
-                 </p>
+                  <p class="footer__description">
+                     Buy in our platform. <br>
+                     Its feels special
+                  </p>
               </div>
 
               <div class="footer__data grid">

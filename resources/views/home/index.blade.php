@@ -182,37 +182,6 @@
 
                @endforeach
                
-               <!-- <article class="popular__card">
-                  <div class="popular__image">
-                     <img src="assets/img/popular-forest.jpg" alt="popular image" class="popular__img">
-                     <div class="popular__shadow"></div>
-                  </div>
-
-                  <h2 class="popular__title">
-                     Spike Forest
-                  </h2>
-
-                  <div class="popular__location">
-                     <i class="ri-map-pin-line"></i>
-                     <span>Rp15000</span>
-                  </div>
-               </article>
-               
-               <article class="popular__card">
-                  <div class="popular__image">
-                     <img src="assets/img/popular-lake.jpg" alt="popular image" class="popular__img">
-                     <div class="popular__shadow"></div>
-                  </div>
-
-                  <h2 class="popular__title">
-                     Garda Lake
-                  </h2>
-
-                  <div class="popular__location">
-                     <i class="ri-map-pin-line"></i>
-                     <span>Rp15000</span>
-                  </div>
-               </article> -->
                
             </div>
             <div class="container__view">
@@ -222,66 +191,6 @@
             </div>
          </section>
          
-         <!--==================== EXPLORE ====================-->
-         <!-- <section class="explore section" id="explore">
-            <div class="explore__container">
-               <div class="explore__image">
-                  <img src="assets/img/explore-beach.jpg" alt="explore image" class="explore__img">
-                  <div class="explore__shadow"></div>
-               </div>
-
-               <div class="explore__content container grid">
-                  <div class="explore__data">
-                     <h2 class="section__title">
-                        Explore The <br> 
-                        Best Paradises
-                     </h2>
-
-                     <p class="explore__description">
-                        Exploring paradises such as islands and 
-                        valleys when traveling the world is one of 
-                        the greatest experiences when you travel, it 
-                        offers you harmony and peace and you 
-                        can enjoy it with great comfort.
-                     </p>
-                  </div>
-
-                  <div class="explore__user">
-                     <img src="assets/img/explore-perfil.png" alt="explore image" class="explore__perfil">
-                     <span class="explore__name">Paul James</span>
-                  </div>
-               </div>
-            </div>
-         </section> -->
-         
-         <!--==================== JOIN ====================-->
-         <!-- <section class="join section">
-            <div class="join__container container grid">
-               <div class="join__data">
-                  <h2 class="section__title">
-                     Your Journey <br>
-                     Starts Here
-                  </h2>
-
-                  <p class="join__description">
-                     Get up to date with the latest 
-                     travel and information from us.
-                  </p>
-
-                  <form action="" class="join__form">
-                     <input type="email" placeholder="Enter your email" class="join__input">
-                     <button class="join__button button">
-                        Subscribe Our Newsletter <i class="ri-arrow-right-line"></i>
-                     </button>
-                  </form>
-               </div>
-
-               <div class="join__image">
-                  <img src="assets/img/join-island.jpg" alt="join image" class="join__img">
-                  <div class="join__shadow"></div>
-               </div>
-            </div>
-         </section> -->
       </main>
 
       <!--==================== FOOTER ====================-->
@@ -289,11 +198,11 @@
          <div class="footer__container container grid">
             <div class="footer__content grid">
                <div>
-                  <a href="#" class="footer__logo">Travel</a>
+                  <a href="#" class="footer__logo">E-commerce</a>
 
                   <p class="footer__description">
-                     Travel with us and explore <br> 
-                     the world without limits.
+                     Buy in our platform. <br>
+                     Its feels special
                   </p>
                </div>
 
