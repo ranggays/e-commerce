@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        body{
+            /* background-color: rgb(255, 255, 255); */
+            background-image: url(/public/assets/img/labuanbajo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 50px;
+        }
+
+        input[type="text"]{
+            background-color: white;
+            border-radius: 20px;
+            width: 200px;
+            margin-left: 50em;
+        }
+
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            width: 94em;
+        }
+
+        span.brand{
+            font: 2em sans-serif;
+            font-size: xx-large;
+        }
+
+        button{
+            /* border-style: none; */
+        }
+
+        .ri-menu-line{
+            margin-right: 3em;
+        }
+
+        table,th{
+            /* border-bottom: 1px solid black; */
+            border-collapse: collapse;
+            justify-content: space-around;
+            width: 800px;
+            text-align: left;
+        }
+
+        th{
+            /* background-color: aqua; */
+            padding-bottom: 10px;
+        }
+
+        td.product{
+            display: flex;
+            width: 250px;
+            /* border-bottom: 1px solid black; */
+        }
+
+        img{
+            width: 50px;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        p.title{
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        p.description{
+            font-size: small;
+            position: relative;
+            bottom: 10px;
+            font-weight: lighter;
+        }
+
+        .container2{
+            /* background-color: rgb(49, 49, 65); */
+            width: 500px;
+            margin-left: 150px;
+            /* border-radius: 20px; */
+            background: rgba(255, 255, 255, 0.1); /* Light transparent white */
+            border-radius: 15px; /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+            backdrop-filter: blur(10px); /* Frosted glass blur effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+        }
+
+        .container2 h1{
+            text-align: center;
+            color: white;
+        }
+
+        section{
+            display: flex;
+        }
+
+        table.payment{
+            width: 500px;
+            height: 550px;
+            /* border-bottom: 1px solid rgb(216, 210, 210); */
+            margin-bottom: 20px;
+            
+        }
+
+        tr.payment p{
+            color: white;
+            /* margin-left: 10px; */
+        }
+
+        tr.payment td{
+            display: flex;
+            /* margin-left: 20px; */
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+
+        div.payment{
+            border: 1px solid white;
+            width: 140px;
+            /* margin-left: 20px; */
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: flex;
+        }
+
+        .payment img{
+            width: 15px;
+        }
+
+        tr td.payment.desc{
+            color: white;
+            padding-left: 20px;
+        }
+
+        tr.name td{
+            color: aliceblue;
+            padding-left: 20px;
+            padding-top: 20px;
+            /* display: inline; */
+        }
+
+        input.name[type]{
+            margin: 0;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        tr td button {
+            display: flex;
+            justify-self: center;
+        }
+
+        button.co{
+            background-color: rgb(90, 90, 239);
+            width: 120px;
+            height: 50px;
+            color: white;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .counter-container {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        .button2 {
+            background: none;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            outline: none;
+        }
+        .number {
+            margin: 0 10px;
+            font-size: 15px;
+        }
+
+        .ship{
+            display: inline-flex;
+            background-color: aliceblue;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            width: 555px;
+            align-items: center;
+        }
+
+        .ship:hover{
+            border: 1px solid black;
+        }
+
+        .ship_description{
+            font-weight: lighter;
+            font-size: smaller;
+            font-style: italic;
+        }
+        .ship_desc{
+            margin-right: 200px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1); /* Light transparent white */
+            border-radius: 15px; /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
+            backdrop-filter: blur(10px); /* Frosted glass blur effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+        }
+
+        .checkout{
+            display: grid;
+            grid-template-columns: repeat(2,100px);
+            column-gap: 250px;
+            align-items: center;
+            /* justify-content: space-between; */
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <span class="brand">E-Commerce</span>
+        <span>
+            <input type="text">
+            <i class="ri-search-line"></i>
+        </span>
+        <span>
+            <i class="ri-shopping-cart-line"></i>
+        </span>
+        <span>
+                <i class="ri-menu-line"></i>            
+        </span>
+    </nav>
+
+    <section class="shopping">
+        <div class="container">
+            <h1 class="title">Shopping Cart</h1>
+            <table class="header">
+                <tr>
+                    <th>Product</th>
+                    <th>Size</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+                <tr style="border-bottom: 1px solid black; ">
+                    <td class="product" >
+                        <img src="/public/assets/img/shirt.jpg" alt="">
+                        <div class="desc">
+                            <p class="title">Henley T-Shirt</p>
+                            <p class="description">
+                                Black top
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- <label for="pilihan">S</label> -->
+                        <select name="pilihan" id="pilihan">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+
+                        </select>
+                    </td>
+                    <td>
+                        <div class="counter-container">
+                            <button class="button2" onclick="decrement()">-</button>
+                            <span class="number" id="count">2</span>
+                            <button onclick="increment()">+</button>
+                        </div>
+                    </td>
+                    <td>
+                        <span>Rp150.000</span>
+                    </td>
+                </tr>
+                <tr style="border-bottom: 1px solid black; ">
+                    <td class="product">
+                        <img src="/public/assets/img/" alt="">
+                        <div class="desc">
+                            <p class="title">Henley T-Shirt</p>
+                            <p class="description">
+                                Black top
+                            </p>
+                    </td>
+                    <td>
+                        <select name="pilihan" id="pilihan">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+
+                        </select>
+                    </td>
+                    <td>
+                        <div class="counter-container">
+                            <button class="button2" onclick="decrement()">-</button>
+                            <span class="number" id="count">2</span>
+                            <button onclick="increment()">+</button>
+                          </div>
+                    </td>
+                    <td>
+                        <span>Rp150.000</span>
+                    </td>
+                </tr>
+                <tr style="border-bottom: 1px solid black; ">
+                    <td class="product">
+                        <img src="/public/assets/img/shirt.jpg" alt="">
+                        <div class="desc">
+                            <p class="title">Henley T-Shirt</p>
+                            <p class="description">
+                                Black top
+                            </p>
+                    </td>
+                    <td>
+                        <select name="pilihan" id="pilihan">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+
+                        </select>
+                    </td>
+                    <td>
+                        <div class="counter-container">
+                            <button class="button2" onclick="decrement()">-</button>
+                            <span class="number" id="count">2</span>
+                            <button onclick="increment()">+</button>
+                          </div>
+                    </td>
+                    <td>
+                        <span>Rp150.000</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Available Shipping Method</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="ship">
+                <img src="/public/assets/img/shirt.jpg" alt="">
+                    <div class="ship_desc">
+                        <h3 class="ship_title">Fedex Delivery</h3>
+                        <p class="ship_description">Delivery: 2-3 days work</p>
+                    </div>
+                    <div class="ship_desc2">
+                        <input type="checkbox" name="" id="">
+                        <span>Rp150.000</span>
+                    </div>
+                </div>
+                <div class="ship">
+                <img src="/public/assets/img/shirt.jpg" alt="">
+                    <div class="ship_desc">
+                       <h3 class="ship_title">Fedex Delivery</h3>
+                        <p class="ship_description">Delivery: 2-3 days work</p>
+                    </div>
+                    <div class="ship_desc2">
+                        <input type="checkbox" name="" id="">
+                        <span>Rp150.000</span>
+                    </div>
+                </div>
+        </div>
+        <div class="container2">
+            <table class="payment">
+                <tr style="border-bottom: 1px solid white;">
+                    <td>
+                        <h1>Payment Info</h1>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="payment desc">
+                        <p>Payment Method:</p>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr class="payment"  style="border-bottom: 1px solid white;">
+                    <td>
+                        <div class="payment">
+                            <img src="/assets/img/bank-card-fill (1).png" alt="">
+                            <p>Credit Card</p>
+                        </div>
+                        <div class="payment">
+                            <img src="/assets/img/paypal-line (1).png" alt="">
+                            <p>E-Wallet</p>
+                        </div>
+                        <!-- <button class="payment">
+                            <img src="/assets/img/bank-card-fill (1).png" alt="">
+                            <p>Credit Card</p>
+                        </button>
+                        <button class="payment">
+                            <img src="/assets/img/paypal-line (1).png" alt="">
+                            <p>E-Wallet</p>
+                        </button> -->
+                        
+                    </td>
+                </tr>
+                <tr class="name" style="border-bottom: 1px solid white; ">
+                    <td>
+                        <label for="name">Name</label>
+                        <input class="name" type="text" id="nameInput" name="name">
+                    </td>
+                </tr>
+                <tr class="name">
+                    <td>
+                        <label for="number">Number</label>
+                        <input class="name" type="numer" id="numberInput" name="number">
+                    </td>
+                </tr>
+                <tr class="name">
+                    <td>
+                        <label for="address">Address</label>
+                        <input class="name" type="text" id="addressInput" name="address">
+                        <!-- <input type="submit" value=""> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="checkout">
+                            <p>Subtotal</p>
+                            <span>Rp200.000</span>
+                            <p>Fee</p>
+                            <span>Rp200.000</span>
+                            <p>Total</p>
+                            <span>Rp200.000</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="co">
+                            Check Out
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script>
+        // Menghitung total harga berdasarkan jumlah produk dan metode pengiriman
+        let count = 2;
+        let basePrice = 150000;  // Harga per item
+        let shippingCost = 0;    // Biaya pengiriman
+    
+        function updateTotalPrice() {
+            const totalElement = document.querySelector(".checkout span:nth-child(6)");
+            const subtotalElement = document.querySelector(".checkout span:nth-child(2)");
+            const feeElement = document.querySelector(".checkout span:nth-child(4)");
+            
+            const subtotal = basePrice * count;
+            const total = subtotal + shippingCost;
+            
+            subtotalElement.textContent = `Rp${subtotal.toLocaleString()}`;
+            feeElement.textContent = `Rp${shippingCost.toLocaleString()}`;
+            totalElement.textContent = `Rp${total.toLocaleString()}`;
+        }
+    
+        function increment() {
+            count++;
+            document.getElementById("count").textContent = count;
+            updateTotalPrice();
+        }
+      
+        function decrement() {
+            if (count > 1) {  // Minimum quantity 1
+                count--;
+                document.getElementById("count").textContent = count;
+                updateTotalPrice();
+            }
+        }
+    
+        // Mendapatkan pilihan metode pengiriman dan menampilkan biayanya
+        const shippingOptions = document.querySelectorAll(".ship_desc2 input[type='checkbox']");
+        shippingOptions.forEach(option => {
+            option.addEventListener("change", function() {
+                // Hanya satu checkbox yang dapat dipilih
+                shippingOptions.forEach(opt => {
+                    if (opt !== this) opt.checked = false;
+                });
+                
+                if (this.checked) {
+                    shippingCost = parseInt(this.nextElementSibling.textContent.replace(/Rp|,|\./g, ''));
+                } else {
+                    shippingCost = 0;
+                }
+                updateTotalPrice();
+            });
+        });
+    
+        // Fungsi validasi untuk memastikan semua field terisi sebelum checkout
+        function validateCheckout() {
+            const nameInput = document.querySelector("input[name='name']");
+            const numberInput = document.querySelector("input[name='number']");
+            const addressInput = document.querySelector("input[name='address']");
+            if (nameInput.value && numberInput.value && addressInput.value) {
+                alert("Checkout berhasil! Melanjutkan ke halaman pembayaran.");
+            } else {
+                alert("Silakan lengkapi semua informasi sebelum checkout.");
+            }
+        }
+        
+        document.querySelector(".co").addEventListener("click", validateCheckout);
+    
+        // Inisialisasi total harga saat halaman dimuat
+        updateTotalPrice();
+    </script>
+    
+</body>
+</html>
